@@ -1,12 +1,13 @@
 # ROS2Humble PX4
 When setting up your VM for the first time you must run these commands to get started 
 
-  su  root 
-	usermod -aG sudo,dialout <username>
-	shutdown -r now
+su  root 
+usermod -aG sudo,dialout <username>
+shutdown -r now
 
-	#after the restart
-	sudo apt update && sudo apt upgrade
+after the restart
+
+sudo apt update && sudo apt upgrade
  
 One thing to remember before trying to run these scripts is to give them the permissions to be executable using
 
