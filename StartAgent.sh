@@ -1,5 +1,6 @@
 echo "Start Agent"
 
+cd Micro-XRCE-DDS-Agent
 cd build
 MicroXRCEAgent udp4 -p 8888
 
