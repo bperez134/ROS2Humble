@@ -6,5 +6,5 @@ gnome-terminal -- bash -c "echo 'Starting Agent'; cd Micro-XRCE-DOS-Agent; cd bu
 
 echo "Opening new terminal to start the client" 
 
-gnome-terminal -- bash -c "echo 'Starting Client'; cd Micro-XRCE-DOC-Agent; cd build; make px4_sitl gz_x500; exec bash"
+gnome-terminal -- bash -c "echo 'Starting Client'; cd Micro-XRCE-DOS-Agent; cd build; make px4_sitl gz_x500; exec bash"
 
