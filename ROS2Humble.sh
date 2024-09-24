@@ -1,3 +1,4 @@
+cd ..
 echo "Ros 2 Jazzy Hawksbill System Setup"
 
 locale  # check for UTF-8
