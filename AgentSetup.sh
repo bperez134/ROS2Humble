@@ -1,5 +1,6 @@
 echo "Agent Setup"
 
+cd ..
 git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
 cd Micro-XRCE-DDS-Agent
 mkdir build
