@@ -6,5 +6,5 @@ gnome-terminal -- bash -c "echo 'Starting Agent'; cd Micro-XRCE-DDS-Agent; cd bu
 
 echo "Opening new terminal to start the client" 
 
-gnome-terminal -- bash -c "echo 'Starting Client'; cd Micro-XRCE-DDS-Agent; cd build; make px4_sitl gz_x500; exec bash"
+gnome-terminal -- bash -c "echo 'Starting Client'; cd PX4-Autopilot; make px4_sitl gz_x500; exec bash"
 
