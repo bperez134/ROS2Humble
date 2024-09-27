@@ -1,11 +1,3 @@
-echo "Install PX4"
-
-cd ..
-git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
-cd PX4-Autopilot/
-make px4_sitl
-
 echo "Install ROS 2 Humble Hawksbill"
 
 sudo apt install python3-pip
