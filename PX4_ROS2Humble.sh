@@ -8,6 +8,11 @@ make px4_sitl
 
 echo "Install ROS 2 Humble Hawksbill"
 
+sudo apt install python3-pip
+cd
+echo "Python Dependencies"
+pip install --user -U empy==3.3.4 pyros-genmsg setuptools
+
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
@@ -22,8 +27,3 @@ sudo apt install ros-humble-ros-base
 sudo apt install ros-humble-desktop
 sudo apt install ros-dev-tools
 source /opt/ros/humble/setup.bash && echo "source /opt/ros/humble/setup.bash" >> .bashrc
-
-
-cd
-echo "Python Dependencies"
-pip install --user -U empy==3.3.4 pyros-genmsg setuptools
