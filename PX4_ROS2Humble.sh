@@ -23,5 +23,7 @@ sudo apt install ros-humble-desktop
 sudo apt install ros-dev-tools
 source /opt/ros/humble/setup.bash && echo "source /opt/ros/humble/setup.bash" >> .bashrc
 
+
+cd
 echo "Python Dependencies"
 pip install --user -U empy==3.3.4 pyros-genmsg setuptools
