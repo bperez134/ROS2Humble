@@ -26,6 +26,7 @@ Using the AgentClient will test if you have installed PX4 and Gazebo correctly.
 Finally in order to run our last command in sequence to date OBCRun.sh
  You will need to install the QGrouncControl.AppImage in order to run the Ground Control Station 
  for the simulated flight controller.
+ You will also need to install the ws_offboard_control example from the PX4 Documentation.
 
  This command runs the agent, client, ground control station, and node from the workspace in particular 
  the offboard control example from the PX4 Documentation
