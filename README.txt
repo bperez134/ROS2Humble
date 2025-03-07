@@ -17,6 +17,7 @@ chmod +x <the script>
 the order in which these need to be dealt out (10/23/2024) is:
 
 ROS2Humble.sh -> PX4.sh : For the installation of PX4 and ROS2Humble 
+Then you will need to do the AgentSetup
 
 For the Setup of the Agent:
  Use AgentSetup.sh
